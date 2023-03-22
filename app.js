@@ -1,4 +1,5 @@
 window.onload = () => {
+  // DOMたち
   const input = document.querySelector('input');
   const preview = document.querySelector('.cocoa-resize-file-list');
   const previewCanvas = document.querySelector('.cocoa-resize-canvas');
