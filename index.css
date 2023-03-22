@@ -1,0 +1,68 @@
+.container {
+  margin:10%;
+  margin-top:20px;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  background: #0097a7;
+  color: white;
+  transition: .4s;
+}
+
+.btn:hover {
+  background: #569199;
+  color: white;
+  cursor: pointer;
+}
+
+/* input要素を非表示にする*/
+input[type="file"] {
+  display: block;
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 50px;
+  font-size: 10px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+/* label要素をボタンに見せかける */
+label {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  font-weight: bold;
+  background: #0097a7;
+  color: white;
+  cursor: pointer;
+}
+
+
+.cocoa-resize-canvas {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+canvas {
+  border: none;
+  margin:5px;
+  position: relative;
+
+}
+
+.cocoa-resize-file-list {
+  font-size: 10px;
+  margin-bottom: 50px;
+}
+

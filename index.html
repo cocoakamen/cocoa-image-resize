@@ -1,0 +1,34 @@
+<html lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div style="position: relative; height:50px;">
+      <label for="cocoa-resize-images-input">画像（png,jpg）を選択してください (ドラッグ＆ドロップ)</label>
+      <input 
+        type="file"
+        id="cocoa-resize-images-input"
+        accept=".jpg, .jpeg, .png"
+        multiple/>
+    </div>
+
+
+    <div class="cocoa-resize-file-list">
+      <p>ファイルが選択されていません</p>
+    </div>
+
+    
+    <div class="btn" id="download-image">
+      画像ダウンロード
+    </div>
+    <div class="cocoa-resize-canvas"></div>
+
+  <script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
